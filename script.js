@@ -1,11 +1,8 @@
-console.log('Conected');
-
-
-// Click on X do delete item
+// Line-through when item is clicked
 $('ul').on('click','li',function(){
     $(this).toggleClass('done');
 })
-
+// Click on X do delete item
 $('ul').on('click','.delete',function(event){
     $(this).parent().fadeOut(500, function(){
         $(this).remove();
