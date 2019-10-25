@@ -3,10 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="assets/favicon-f.ico" />
     <script
     src="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Staatliches&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/128faf0ecb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css-reset.css"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>To Do App</title>
   </head>
@@ -17,14 +21,13 @@
           <button>+</button>
         </header>
         <section>
-          <input type="text" name="new-todo" id="add-new-todo">
+          <input type="text" name="new-todo" id="add-new-todo" placeholder="Add new item">
         </section>
         <section>
          <ul>
-           <li><span class="delete">X</span>dasdsadas</li>
-           <li><span class="delete">X</span>dsaasafsasa</li>
-           <li><span class="delete">X</span>dasdasdsa</li>
-           <li><span class="delete">X</span>dasdasdsadsa</li>
+           <li><span class="delete"><i class="fa fa-trash"></i></span><p>First item</p></li>
+           <li><span class="delete"><i class="fa fa-trash"></i></span><p>Second item</p></li>
+           <li><span class="delete"><i class="fa fa-trash"></i></span><p>Third icon</p></li>
          </ul>
         </section>
       </main>
